@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  <link rel="stylesheet" href="css/create.css">
+  <link rel="icon" href="images/logo.png">
+  <title>E-Bank | Register</title>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">E-Bank</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right ">
+      <li class="active"><a href="home.html">Home</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">New Customer
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="create.html">Create</a></li>
+          <li><a href="update.html">Update</a></li>
+          <li><a href="delete.html">Delete</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cashier
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="deposit.html">Deposit</a></li>
+          <li><a href="withdraw.html">Withdraw</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="reg-form">
+  <br>
+  
+  <form method="post">
+    <br>
+    <h1>Create Customer</h1>
+    <br>
+    
+    <div class="form-group">
+    <label for="id"><b>Customer SSN ID</b></label>
+    <input type="text" placeholder="Customer SSN ID" name="id" class="form-control" id="id" required>
+  </div>  
+    <div class="form-group">
+    <label for="name"><b>Customer Name</b></label>
+    <input type="text" placeholder="Customer Name" name="name" class="form-control" id="name" required>
+  </div>
+  <div class="form-group">
+    <label for="age"><b>Age</b></label>
+    <input type="text" placeholder="Age" name="age" class="form-control" id="age" required>
+  </div>
+  <div class="form-group">
+    <label for="Address Line1"><b>Address Line1</b></label>
+    <input type="textarea" placeholder="Address Line1" name="Address Line1"  class="form-control" id="Address Line1" required>
+</div>
+    <div class="form-group">
+    <label for="Address Line2"><b>Address Line2</b></label>
+    <input type="textarea" placeholder="Address Line2" name="Address Line2" class="form-control" id="Address Line2" required>
+  </div>
+    <div class="form-group">
+    <label for="City"><b>City</b></label>
+    <input type="text" placeholder="City" name="City" class="form-control" id="City" required>
+  </div>
+    <div class="form-group">
+    <label for="State"><b>State</b></label>
+    <input type="text" placeholder="State" name="State" class="form-control" id="State" required>
+  </div>
+
+    <div class="form-group" style="color:white";>
+      <p>By updating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+      <input type="submit"  name="btn_register" class="btn btn-primary " value="Register">
+    </div>
+    <div class="form-group">
+      <div class="text-center" style="color:white";>
+        <p>Alredy have a account? <a href="login.html">Login</a></p>
+      </div>
+      </div>
+  </form>
+</div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  <script>
+  </script>
+
+</body>
+

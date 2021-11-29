@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+nav img {
+	width: 100px;
+	margin: 5px 50px;
+}
+nav ul {
+	padding-right: 30px;
+}
+nav ul li {
+	margin: 10px 0;
+}
+.navbar-toggle {
+	margin-top: 20px;
+}
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.slide {
+	top: 70px;
+}
+.carousel {
+	height: 500px;
+	margin-bottom: 50px;
+}
+.carousel-inner > .item {
+	height: 500px;
+	background: #777;
+}
+.carousel-inner > .item > img {
+	width: 100%;
+}
+.carousel-caption h1 {
+	font-size: 50px;
+	font-weight: bolder;
+	padding: 50px 0;
+}
+.carousel-caption h1 span {
+	color: #ff5722;
+}
+.carousel-caption p {
+	font-size: 20px;
+}
+@media (max-width: 1173px) {
+	.carousel {
+	height: auto;
+	width: 100%;
+	}
+	.carousel-caption h1 {
+		font-size: 30px;
+		padding: 30px 0;
+	}
+	.carousel-inner > .item {
+	height: auto;
+	width: 100%;
+	}
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.content {
+	margin: 150px 0;
+	color: #00416d;
+}
+.content h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+.content p {	
+	font-size: 18px;
+	margin: 30px 50px;
+	padding: 0 100px;
+}
+@media (max-width: 1173px) {
+	.content h1 {
+		font-size: 40px;
+	}
+	.content p {	
+		font-size: 16px;
+		margin: 30px 40px;
+		padding: 0 75px;
+	}
+}
+@media (max-width: 742px) {
+	.content h1 {
+		font-size: 30px;
+	}
+	.content p {	
+		font-size: 14px;
+		margin: 25px 25px;
+		padding: 0 50px;
+	}
+}
+@media (max-width: 422px) {
+	.content h1 {
+		font-size: 20px;
+	}
+	.content p {	
+		font-size: 12px;
+		margin: 20px 15px;
+		padding: 0 20px;
+	}
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.footer-top {
+	background: #33343b;
+	padding-top: 80px;
+}
+.footer-top p {
+	color: #999;
+	line-height: 25px;
+}
+.footer-top h4{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1pt;
+}
+.segment-two i {
+	color: #ff5722;
+	margin-right: 2px;
+}
+.segment-three i {
+	font-size: 25px;
+	margin: 0 2px;
+	color: #f5f1da;
+}
+.segment-four p {
+	padding: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

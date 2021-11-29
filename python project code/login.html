@@ -1,0 +1,53 @@
+s<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="js/sweetalert.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="icon" href="images/Samagra_Foundation_logo.png">
+  <title>E Bank | Login</title>
+</head>
+
+<body>
+
+
+<div class="login-form">
+  <img src="images/logo.png" alt="" class="animate__animated animate__heartBeat">
+  <form method="post">
+    <div class="form-group">
+        <select class="form-control" name="txt_role">
+          <option value="" selected="selected" disabled> - select account type - </option>
+         <option value="cs">Customer SSN ID</option>
+        <option value="cd">Cashier/Teller</option>
+        </select>
+    </div>
+    <div class="form-group">
+      <input type="text" name="txt_email" class="form-control" placeholder="Email" />
+    </div>
+    
+    <div class="form-group">
+    <input type="password" name="txt_password" class="form-control" id="pass" placeholder="Password">
+    </div>
+    <div class="form-group">
+       <input type="submit" name="btn_login" class="btn btn-primary" value="Login" onclick="clickMe()">
+    </div>
+    <div class="form-group">
+     <div class="text-center">
+      <p>Create an account? <a href="register.html">Register</a></p>
+      <p>After login Go to <a href="customerhome.html">CustomerCrud</a></p>
+     </div>
+    </div>
+
+  </form>
+</div>
+
+</body>
+
+</html>
+
+
+

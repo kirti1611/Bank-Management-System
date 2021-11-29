@@ -1,0 +1,10 @@
+1.create Bankdbq;
+2.use Bankdbq;
+3.create table bank(ACCNO varchar(10) NOT NULL,NAME varchar(20),AGE varchar(10),ADDRESS varchar(20),CITY varchar(10),STATE varchar(20), PRIMARY KEY (ACCNO)')
+
+4.create table balance(ACCNO varchar(10) NOT NULL,BALANCE integer(20));
+5.alter table balance
+    -> alter BALANCE set default 0;
+
+6.alter table balance
+    -> add foreign key (ACCNO) references bank(ACCNO);
